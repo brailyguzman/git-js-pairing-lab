@@ -55,6 +55,12 @@ const isNegative = (num) => {
     return false;
 };
 
+// Assignment 8
+const triangleArea = (b, h) =>{
+    return 1/2 * (h*b)
+};
+
+
 // Tests
 // fiveToOneHundred();
 // multiplesOfThree();
@@ -63,3 +69,4 @@ const isNegative = (num) => {
 // console.log(multiply(10, -5));
 // console.log(add(5, 5));
 // console.log(isNegative(-5));
+// console.log(triangleArea(6,8));
