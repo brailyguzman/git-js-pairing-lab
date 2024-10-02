@@ -5,5 +5,14 @@ const fiveToOneHundred = () => {
     }
 };
 
+// Assignment 2
+const multiplesOfThree = () => {
+    for (let i = 3; i <= 100; i += 3) {
+        console.log(i);
+    }
+    
+};
+
 // Tests
-fiveToOneHundred();
+// fiveToOneHundred();
+// multiplesOfThree();
