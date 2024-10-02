@@ -37,9 +37,21 @@ const multiply = (num1, num2) => {
     return num1 * num2;
 };
 
+// Assignment 6 
+const add = (num1, num2) => {
+    if (num1 === num2) {
+     return  (num1 + num2) * 3
+    }
+
+    return num1 + num2
+};
+
+
+
 // Tests
 // fiveToOneHundred();
 // multiplesOfThree();
 // multiplesOfThreeOrFive();
 // untilNum(9);
 // console.log(multiply(10, -5));
+// console.log(add(5, 5));
