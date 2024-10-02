@@ -71,6 +71,12 @@ const betweenTwentyAndFourty = (num) => {
     return true;
 };
 
+// Assignment 10 
+const largest = (num1, num2, num3) => {
+    return Math.max(num1, num2, num3)
+}
+
+
 // Tests
 // fiveToOneHundred();
 // multiplesOfThree();
@@ -84,3 +90,4 @@ const betweenTwentyAndFourty = (num) => {
 // console.log(betweenTwentyAndFourty(21)); //return true
 // console.log(betweenTwentyAndFourty(39)); //return true
 // console.log(betweenTwentyAndFourty(40)); //return false
+console.log(largest(30, 22, 17));
