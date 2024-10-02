@@ -56,10 +56,20 @@ const isNegative = (num) => {
 };
 
 // Assignment 8
-const triangleArea = (b, h) =>{
-    return 1/2 * (h*b)
+const triangleArea = (b, h) => {
+    return (1 / 2) * (h * b);
 };
 
+// Assignment 9
+const betweenTwentyAndFourty = (num) => {
+    if (num <= 20) {
+        return false;
+    } else if (num >= 40) {
+        return false;
+    }
+
+    return true;
+};
 
 // Tests
 // fiveToOneHundred();
@@ -70,3 +80,7 @@ const triangleArea = (b, h) =>{
 // console.log(add(5, 5));
 // console.log(isNegative(-5));
 // console.log(triangleArea(6,8));
+// console.log(betweenTwentyAndFourty(20)); //return false
+// console.log(betweenTwentyAndFourty(21)); //return true
+// console.log(betweenTwentyAndFourty(39)); //return true
+// console.log(betweenTwentyAndFourty(40)); //return false
