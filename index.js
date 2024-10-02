@@ -13,6 +13,17 @@ const multiplesOfThree = () => {
     
 };
 
+// Assignment 4
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++) {
+        console.log(i)
+    }
+}
+
+
+
 // Tests
 // fiveToOneHundred();
 // multiplesOfThree();
+untilNum(9);
+
