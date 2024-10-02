@@ -28,15 +28,18 @@ const multiplesOfThreeOrFive = () => {
 // Assignment 4
 const untilNum = (num) => {
     for (let i = 1; i <= num; i++) {
-        console.log(i)
+        console.log(i);
     }
-}
+};
 
-
+// Assignment 5
+const multiply = (num1, num2) => {
+    return num1 * num2;
+};
 
 // Tests
 // fiveToOneHundred();
 // multiplesOfThree();
 // multiplesOfThreeOrFive();
-untilNum(9);
-
+// untilNum(9);
+// console.log(multiply(10, -5));
